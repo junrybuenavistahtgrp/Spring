@@ -33,10 +33,14 @@ public class CarEntity {
 		return model;
 	}
 	public void setModel(String model) {
+		if(model.equals("wigo"))
+			model = "wigochanged";
 		this.model=model;
 	}
 	public String getColor() {
-		return model;
+		if(color.equals("yellow"))
+			color = "changed";
+		return color;
 	}
 	public void setColor(String color) {
 		this.color=color;
