@@ -19,9 +19,7 @@
 </template>
 
 <script>
-//import CarService from "./CarService";
-
-import CarService from "../services/CarService";
+import CarService from "./services/CarService";
 
 	export default{
 		name:'TeslaCars',
