@@ -1,17 +1,20 @@
 <template>
 	<div id="app">
 		<TeslaCar />
+		<PostCar />
 	</div>
   
 </template>
 
 <script>
 import TeslaCar from './components/TeslaCar.vue'
+import PostCar from './components/PostCar.vue'
 
 export default {
   name: 'App',
   components: {
-    TeslaCar
+    TeslaCar,
+    PostCar
   }
 }
 </script>
