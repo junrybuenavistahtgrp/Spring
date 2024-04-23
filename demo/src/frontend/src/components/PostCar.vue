@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		
-		<form @submit.prevent="createPost">
+		<form @submit.prevent="createPost" >
 			<div>
 				<label for="model">Car Model</label>
 				<input type = 'text' id="model" v-model="formData.model">
